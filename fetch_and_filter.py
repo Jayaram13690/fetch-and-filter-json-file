@@ -130,7 +130,7 @@ def display_results(data, title="Results"):
         for i, item in enumerate(data, 1):
             print(f"--- Item {i} ---")
             # Pretty print with indentation
-            print(json.dumps(item, indent=2))
+            print(json.dumps(item, indent=2)) #dumps -> converts python object/dict to JSON string.
             print()
     else:
         print(json.dumps(data, indent=2))
