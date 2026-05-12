@@ -234,7 +234,7 @@ def handle_users(users):
     print("\n--- Users Filtering ---\n")
     
     # Filter by City
-    city = input("Enter city name to filter (e.g., 'Apt. 692'): ").strip()
+    city = input("Enter city name to filter (e.g., 'South Elvis'): ").strip()
     filtered_users = filter_users_by_city(users, city)
     
     if filtered_users:
